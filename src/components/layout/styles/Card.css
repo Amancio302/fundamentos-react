@@ -1,0 +1,47 @@
+.card-outlined {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.outer-card {
+  border-radius: 15px;
+  border: 2px solid;
+  padding: 12px 0px 0px 0px;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  overflow: hidden;
+}
+
+.title-text-card {
+  font-weight: bold;
+  font-size: larger;
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+
+.title-text-card-outlined {
+}
+
+.subtitle-text-card {
+  font-size: small;
+  font-weight: bold;
+  letter-spacing: normal;
+  line-height: 15px;
+  margin-bottom: 8px;
+}
+
+.subtitle-text-card-outlined {
+}
+
+.body-text-card {
+  font-weight: normal;
+  font-size: medium;
+  line-height: normal;
+  flex-grow: 1;
+  background-color: #fafafa;
+  padding: 10px 0;
+}
+
+.body-text-card-outlined {
+}
